@@ -4,8 +4,12 @@
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+  adapter: postgresql
+  database: first_app_development
+  username: postgres
+  password: newlife
+  port: 5432
+  host: localhost
   pool: 5
   timeout: 5000
 
@@ -13,13 +17,23 @@ development:
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
+  adapter: postgresql
+  database: first_app_test
+  username: postgres
+  password: newlife
+  port: 5432
+  host: localhost
+  ##database: my_database_test
   pool: 5
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
+  adapter: postgresql
+  database: first_app_production
+  ##database: my_database_production
+  username: postgres
+  password: newlife
+  port: 5432
+  host: localhost
   pool: 5
   timeout: 5000

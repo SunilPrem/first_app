@@ -5,9 +5,9 @@ gem 'rails', '4.0.3'
 #gem 'rails', '3.0.1'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-#gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-#gem 'sqlite3-ruby', '1.2.5', :group => :development
+gem 'pg'
+##gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
+##gem 'sqlite3-ruby', '1.2.5', :group => :development
 
 # Use SCSS for stylesheets
 ##gem 'sass-rails', '~> 4.0.0'
