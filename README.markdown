@@ -28,6 +28,7 @@ Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
 #RubyonRailsTutorial:firstapplication
+
 This is the first application for 
 [* Ruby on Rails Tutorial : Learn Rails by example*] (http://railstutorial.org/)
 by [Michael Hartl] (http://michaelhartl.com/)
